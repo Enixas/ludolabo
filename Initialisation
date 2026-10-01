@@ -1,0 +1,6 @@
+cd ~/Developer/Project/Web/ludolabo
+git init -b main
+git add .
+git commit -m "Site LudoLabo"
+git remote add origin https://github.com/Enixas/ludolabo.git
+git push -u origin main  
