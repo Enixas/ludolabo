@@ -1,0 +1,32 @@
+# Récupère automatiquement les nouvelles vidéos YouTube de LudoLabo
+# toutes les 3 heures et met à jour data/youtube.js.
+name: Synchro YouTube
+
+on:
+  schedule:
+    - cron: "23 */3 * * *"
+  workflow_dispatch: # bouton « Run workflow » pour lancer à la main
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Synchroniser la chaîne
+        run: node scripts/sync-youtube.mjs
+        env:
+          YT_API_KEY: ${{ secrets.YT_API_KEY }} # optionnel (voir README)
+      - name: Enregistrer les nouvelles vidéos
+        run: |
+          git config user.name "ludolabo-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/youtube.js
+          git diff --cached --quiet && echo "Rien de nouveau." && exit 0
+          git commit -m "🎬 Nouvelles vidéos YouTube"
+          git push
