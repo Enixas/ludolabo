@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vidéos — LudoLabo</title>
+<meta name="description" content="Toutes les vidéos LudoLabo : YouTube, TikTok, Instagram.">
+<meta property="og:title" content="Vidéos — LudoLabo">
+<meta property="og:description" content="Toutes les vidéos LudoLabo : YouTube, TikTok, Instagram.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/og-image.png">
+<meta name="theme-color" content="#13a37f">
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=JetBrains+Mono:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="videos">
+<a class="sr-only" href="#main">Aller au contenu</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="LudoLabo — accueil">
+      <img src="assets/logo.svg" alt="" width="42" height="42">
+      <span class="brand-name">Ludo<span>Labo</span></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a><a href="videos.html" aria-current="page">Vidéos</a><a href="rapports.html">Rapports</a><a href="labo.html">Le Labo</a><a href="contact.html">Contact</a>
+      <a class="btn btn-primary" data-yt-link href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg> S'abonner</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<section class="page-head">
+  <div class="container">
+    <span class="label">Archives vidéo</span>
+    <h1>Toutes les expériences</h1>
+    <p>Vidéos longues sur YouTube, formats courts sur TikTok, Instagram et YouTube Shorts&nbsp;: tout le labo au même endroit.</p>
+  </div>
+</section>
+<div class="filters">
+  <div class="container">
+    <div class="filters-row">
+      <label class="search"><span class="sr-only">Rechercher</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q" type="search" placeholder="Rechercher un jeu, un thème…" autocomplete="off"></label>
+      <div class="seg" id="seg-format" role="group" aria-label="Format">
+        <button type="button" data-format="tous">Tout</button><button type="button" data-format="long">Long</button><button type="button" data-format="court">Court</button>
+      </div>
+      <select class="select" id="plat" aria-label="Plateforme">
+        <option value="toutes">Toutes plateformes</option><option value="youtube">YouTube</option><option value="tiktok">TikTok</option><option value="instagram">Instagram</option>
+      </select>
+      <select class="select" id="tri" aria-label="Tri"><option value="recent">Plus récentes</option><option value="ancien">Plus anciennes</option></select>
+    </div>
+    <div class="filters-row">
+      <div class="cat-filter" id="cat-filter"></div>
+      <span class="result-count" id="count"></span>
+    </div>
+  </div>
+</div>
+<section class="container" style="padding-bottom:24px">
+  <div id="res-long-wrap"><h2 class="sub-title">Format long</h2><div class="grid-videos" id="res-long"></div></div>
+  <div id="res-short-wrap" style="margin-top:48px"><h2 class="sub-title">Format court</h2><div class="grid-shorts" id="res-short"></div></div>
+  <div id="res-empty"></div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html"><img src="assets/logo.svg" alt="" width="42" height="42"><span class="brand-name">Ludo<span>Labo</span></span></a>
+        <p class="muted" style="margin-top:12px;max-width:26em">Le laboratoire où l'on teste les jeux de société. Recommandations, astuces et expériences ludiques.</p>
+        <div class="socials" data-socials></div>
+      </div>
+      <div><h4>Le labo</h4><ul>
+        <li><a href="videos.html">Toutes les vidéos</a></li>
+        <li><a href="videos.html?format=court">Shorts &amp; reels</a></li>
+        <li><a href="rapports.html">Rapports d'expérience</a></li>
+      </ul></div>
+      <div><h4>Contact</h4><ul>
+        <li><a href="labo.html">À propos</a></li>
+        <li><a href="contact.html">Partenariats</a></li>
+        <li><a data-email href="#"></a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom"><span>© <span id="year"></span> LudoLabo — tous droits réservés</span><span>Fabriqué au labo avec 🎲 &amp; 🧪</span></div>
+  </div>
+</footer>
+<script src="data/config.js"></script>
+<script src="data/youtube.js"></script>
+<script src="data/videos.js"></script>
+<script src="data/rapports.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

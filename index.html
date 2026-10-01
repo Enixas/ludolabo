@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LudoLabo — Le labo des jeux de société</title>
+<meta name="description" content="LudoLabo — le laboratoire où l'on teste les jeux de société. Vidéos, shorts et rapports d'expérience.">
+<meta property="og:title" content="LudoLabo — Le labo des jeux de société">
+<meta property="og:description" content="LudoLabo — le laboratoire où l'on teste les jeux de société. Vidéos, shorts et rapports d'expérience.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/og-image.png">
+<meta name="theme-color" content="#13a37f">
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=JetBrains+Mono:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="accueil">
+<a class="sr-only" href="#main">Aller au contenu</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="LudoLabo — accueil">
+      <img src="assets/logo.svg" alt="" width="42" height="42">
+      <span class="brand-name">Ludo<span>Labo</span></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="index.html" aria-current="page">Accueil</a><a href="videos.html">Vidéos</a><a href="rapports.html">Rapports</a><a href="labo.html">Le Labo</a><a href="contact.html">Contact</a>
+      <a class="btn btn-primary" data-yt-link href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg> S'abonner</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="label">Protocole n°001 · Laboratoire ludique</span>
+      <h1>Le labo où l'on <em>teste</em> les jeux de société.</h1>
+      <p class="hero-lead">Recommandations, astuces et expériences&nbsp;: LudoLabo passe les jeux au microscope pour t'aider à trouver <span class="hl">la prochaine boîte qui sortira tous les week-ends</span>.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="videos.html">▶ Voir les expériences</a>
+        <a class="btn" href="rapports.html">🧪 Lire les rapports</a>
+      </div>
+      <div class="stats">
+        <div class="stat"><b id="stat-videos">0</b><span>Vidéos</span></div>
+        <div class="stat"><b id="stat-jeux">0</b><span>Jeux analysés</span></div>
+        <div class="stat"><b id="stat-courts">0</b><span>Formats courts</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <svg viewBox="0 0 400 400" aria-hidden="true">
+  <defs>
+    <clipPath id="hf"><path d="M160 60h80v95l92 160a34 34 0 0 1-29.5 51h-205A34 34 0 0 1 68 315l92-160z"/></clipPath>
+  </defs>
+  <ellipse cx="200" cy="378" rx="150" ry="12" fill="currentColor" opacity=".12"/>
+  <g clip-path="url(#hf)">
+    <rect x="0" y="230" width="400" height="200" fill="#13a37f"/>
+    <g class="wave"><path d="M0 230q25-14 50 0t50 0 50 0 50 0 50 0 50 0 50 0 50 0 50 0 50 0 50 0 50 0v16H0z" fill="#0c7a5e"/></g>
+    <circle class="bubble" cx="140" cy="340" r="7" fill="#fff" opacity=".7"/>
+    <circle class="bubble" cx="250" cy="350" r="5" fill="#fff" opacity=".7"/>
+    <circle class="bubble" cx="200" cy="355" r="9" fill="#fff" opacity=".7"/>
+    <circle class="bubble" cx="275" cy="330" r="4" fill="#fff" opacity=".7"/>
+    <circle class="bubble" cx="120" cy="320" r="5" fill="#fff" opacity=".7"/>
+    <g class="float-a">
+      <rect x="140" y="265" width="58" height="58" rx="12" fill="#fffdf7" stroke="#18202b" stroke-width="4"/>
+      <circle cx="155" cy="280" r="5.5" fill="#e0533d"/><circle cx="169" cy="294" r="5.5" fill="#18202b"/><circle cx="183" cy="308" r="5.5" fill="#18202b"/>
+    </g>
+    <g class="float-b">
+      <path d="M232 300a14 14 0 1 1 22 0l12 4c8 3 10 10 10 18h-66c0-8 2-15 10-18z" fill="#f0b23a" stroke="#18202b" stroke-width="4" stroke-linejoin="round"/>
+    </g>
+  </g>
+  <path d="M160 60h80v95l92 160a34 34 0 0 1-29.5 51h-205A34 34 0 0 1 68 315l92-160z" fill="none" stroke="currentColor" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M110 300l-8 14" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity=".6"/>
+  <g stroke="currentColor" stroke-width="4" stroke-linecap="round"><path d="M240 110h-22M240 135h-14M240 160h-22"/></g>
+  <rect x="146" y="40" width="108" height="24" rx="8" fill="currentColor"/>
+  <g class="float-b"><rect x="300" y="70" width="40" height="40" rx="8" fill="#2c6bd8" stroke="currentColor" stroke-width="4" transform="rotate(18 320 90)"/><circle cx="320" cy="90" r="5" fill="#fff"/></g>
+  <g class="float-a"><path d="M56 120l18 32H38z" fill="#e0533d" stroke="currentColor" stroke-width="4" stroke-linejoin="round"/></g>
+  <circle cx="70" cy="215" r="10" fill="#7b52d3" stroke="currentColor" stroke-width="4"/>
+</svg>
+      <div class="tag tag-1">Échantillon<b>Jeu de société</b>Stable · non toxique</div>
+      <div class="tag tag-2">Effet observé<b>Fun +98 %</b>Encore une partie ?</div>
+    </div>
+  </div>
+  <div class="ticker" aria-hidden="true"><div class="ticker-track" id="ticker"></div></div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <div><span class="label">Format long</span><h2>Dernières expériences</h2></div>
+      <a class="link-arrow" href="videos.html?format=long">Toutes les vidéos →</a>
+    </div>
+    <div class="grid-videos" id="latest-long"></div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <div class="section-head reveal">
+      <div><span class="label">Format court · Shorts, TikTok, Reels</span><h2>Échantillons express</h2></div>
+      <a class="link-arrow" href="videos.html?format=court">Tous les formats courts →</a>
+    </div>
+    <div class="shorts-rail" id="latest-short"></div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:24px">
+  <div class="container">
+    <div class="section-head reveal">
+      <div><span class="label">Classification</span><h2>Le tableau périodique du jeu</h2>
+      <p>Chaque jeu testé est classé selon ses éléments. Choisis une case pour isoler les vidéos correspondantes.</p></div>
+    </div>
+    <div class="periodic reveal" id="periodic"></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <div><span class="label">Carnet de labo</span><h2>Derniers rapports d'expérience</h2>
+      <p>Hypothèse, protocole, observations, verdict&nbsp;: la fiche complète de chaque jeu passé au labo.</p></div>
+      <a class="link-arrow" href="rapports.html">Tous les rapports →</a>
+    </div>
+    <div class="grid-reports" id="latest-reports"></div>
+  </div>
+</section>
+
+<section class="section" style="padding-bottom:0">
+  <div class="container">
+    <div class="cta-band reveal">
+      <div><span class="label">Éditeurs &amp; boutiques</span><h2>Un jeu à faire tester&nbsp;?</h2>
+      <p>Envoie ton spécimen au labo : il passera le protocole complet et pourra faire l'objet d'une vidéo et d'un rapport.</p></div>
+      <a class="btn btn-yellow" href="contact.html">Proposer un partenariat →</a>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html"><img src="assets/logo.svg" alt="" width="42" height="42"><span class="brand-name">Ludo<span>Labo</span></span></a>
+        <p class="muted" style="margin-top:12px;max-width:26em">Le laboratoire où l'on teste les jeux de société. Recommandations, astuces et expériences ludiques.</p>
+        <div class="socials" data-socials></div>
+      </div>
+      <div><h4>Le labo</h4><ul>
+        <li><a href="videos.html">Toutes les vidéos</a></li>
+        <li><a href="videos.html?format=court">Shorts &amp; reels</a></li>
+        <li><a href="rapports.html">Rapports d'expérience</a></li>
+      </ul></div>
+      <div><h4>Contact</h4><ul>
+        <li><a href="labo.html">À propos</a></li>
+        <li><a href="contact.html">Partenariats</a></li>
+        <li><a data-email href="#"></a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom"><span>© <span id="year"></span> LudoLabo — tous droits réservés</span><span>Fabriqué au labo avec 🎲 &amp; 🧪</span></div>
+  </div>
+</footer>
+<script src="data/config.js"></script>
+<script src="data/youtube.js"></script>
+<script src="data/videos.js"></script>
+<script src="data/rapports.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
