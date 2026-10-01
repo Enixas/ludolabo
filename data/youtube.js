@@ -3,7 +3,28 @@
    Pour corriger une vidéo (catégories, rapport, masquer), utiliser data/videos.js */
 window.LUDOLABO_YOUTUBE = [
   {
-    "titre": "🐺 Nouveau rôle: la puissante mère des loups",
+    "titre": "🐺 Nouveau rôle OP au Loup-Garou: le Colosse",
+    "plateforme": "youtube",
+    "format": "court",
+    "id": "gtSB2poyPEo",
+    "date": "2026-10-01",
+    "categories": [
+      "Am"
+    ]
+  },
+  {
+    "titre": "J'explique et je note les 4 nouveaux rôles du LOUP-GAROU",
+    "plateforme": "youtube",
+    "format": "long",
+    "id": "KJL2eqMTBdw",
+    "date": "2026-10-01",
+    "duree": "9:22",
+    "categories": [
+      "St"
+    ]
+  },
+  {
+    "titre": "🐺 Nouveau LOUP-GAROU haït par le village: la puissante mère des loups",
     "plateforme": "youtube",
     "format": "court",
     "id": "-nfZ1EPyIgI",
