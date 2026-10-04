@@ -3,6 +3,16 @@
    Pour corriger une vidéo (catégories, rapport, masquer), utiliser data/videos.js */
 window.LUDOLABO_YOUTUBE = [
   {
+    "titre": "🐺 Nouveau rôle super fun au Loup-Garou: le singe savant",
+    "plateforme": "youtube",
+    "format": "court",
+    "id": "tWhr_TDG0rU",
+    "date": "2026-10-04",
+    "categories": [
+      "Am"
+    ]
+  },
+  {
     "titre": "🐺 Nouveau rôle OP au Loup-Garou: le Colosse",
     "plateforme": "youtube",
     "format": "court",
