@@ -3,6 +3,17 @@
    Pour corriger une vidéo (catégories, rapport, masquer), utiliser data/videos.js */
 window.LUDOLABO_YOUTUBE = [
   {
+    "titre": "🏆Atteingnez le top mondial à 7 WONDERS avec ces astuces (BGA)",
+    "plateforme": "youtube",
+    "format": "court",
+    "id": "YGG_uesPeho",
+    "date": "2026-10-06",
+    "categories": [
+      "St",
+      "As"
+    ]
+  },
+  {
     "titre": "🐺 Nouveau rôle super fun au Loup-Garou: le singe savant",
     "plateforme": "youtube",
     "format": "court",
