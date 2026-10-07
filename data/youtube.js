@@ -290,17 +290,6 @@ window.LUDOLABO_YOUTUBE = [
     "categories": []
   },
   {
-    "titre": "🥷🏻 Une nuit au NINJA PARK...",
-    "plateforme": "youtube",
-    "format": "court",
-    "id": "Ezzq886GZvU",
-    "date": "2025-12-18",
-    "categories": [
-      "Du",
-      "En"
-    ]
-  },
-  {
     "titre": "🎁 Offrez ces jeux à vos proches pour les convertir!",
     "plateforme": "youtube",
     "format": "court",
@@ -330,16 +319,6 @@ window.LUDOLABO_YOUTUBE = [
     "id": "u1SbGYXP5H8",
     "date": "2025-11-26",
     "categories": []
-  },
-  {
-    "titre": "🤯 Panique au chantier: on construit sans pouvoir parler librement (Brick like this)",
-    "plateforme": "youtube",
-    "format": "court",
-    "id": "kyTzxrAqb4E",
-    "date": "2025-11-24",
-    "categories": [
-      "Du"
-    ]
   },
   {
     "titre": "Le n°1... vous y avez pensé aussi, non? 🤭",
@@ -462,38 +441,12 @@ window.LUDOLABO_YOUTUBE = [
     ]
   },
   {
-    "titre": "🧐 Ludoscopie devient... 👨🏻‍🔬 LudoLabo!",
-    "plateforme": "youtube",
-    "format": "court",
-    "id": "Rv2ar2QQrRU",
-    "date": "2025-10-07",
-    "categories": []
-  },
-  {
     "titre": "🥵 On transforme un jeu avec une sauce 🌶️🌶️🌶️ (j'ai jamais goûté un truc aussi fort 😱)",
     "plateforme": "youtube",
     "format": "court",
     "id": "IvrnS30RiKU",
     "date": "2025-10-03",
     "categories": []
-  },
-  {
-    "titre": "Laissez-moi tranquille! 🫣",
-    "plateforme": "youtube",
-    "format": "court",
-    "id": "waj_zkyN_RM",
-    "date": "2025-09-27",
-    "categories": []
-  },
-  {
-    "titre": "🎲 Les dés décident de mes TOP!",
-    "plateforme": "youtube",
-    "format": "court",
-    "id": "XbxMRw3Yhls",
-    "date": "2025-09-18",
-    "categories": [
-      "Am"
-    ]
   },
   {
     "titre": "🎲 ChatGPT crée un jeu de société en 2h",
@@ -680,26 +633,6 @@ window.LUDOLABO_YOUTUBE = [
     "categories": []
   },
   {
-    "titre": "🤫 Je vous révèle mon petit SECRET...",
-    "plateforme": "youtube",
-    "format": "court",
-    "id": "GFFkiKmF4XU",
-    "date": "2025-06-26",
-    "categories": [
-      "Am"
-    ]
-  },
-  {
-    "titre": "😱 Quand tu joues à un jeu de guerre...",
-    "plateforme": "youtube",
-    "format": "court",
-    "id": "p8iIFzxAWow",
-    "date": "2025-06-25",
-    "categories": [
-      "Am"
-    ]
-  },
-  {
     "titre": "🔥🎲 Et si je ne devais garder que 10 JEUX...",
     "plateforme": "youtube",
     "format": "court",
@@ -728,14 +661,6 @@ window.LUDOLABO_YOUTUBE = [
     "format": "court",
     "id": "vuo9JcQlXuY",
     "date": "2025-06-13",
-    "categories": []
-  },
-  {
-    "titre": "🤩 2 choses qui rendent ce jeu brillant !",
-    "plateforme": "youtube",
-    "format": "court",
-    "id": "SOEWDKBPIG4",
-    "date": "2025-06-10",
     "categories": []
   },
   {
