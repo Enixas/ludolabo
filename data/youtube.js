@@ -65,14 +65,6 @@ window.LUDOLABO_YOUTUBE = [
     ]
   },
   {
-    "titre": "⛩️ Ce jeu vend du rêve dès l'ouverture...",
-    "plateforme": "youtube",
-    "format": "court",
-    "id": "3xx_OuulyF8",
-    "date": "2026-09-24",
-    "categories": []
-  },
-  {
     "titre": "🏆 + de 3000 parties à 7 WONDERS, voilà mes astuces pour gagner!",
     "plateforme": "youtube",
     "format": "court",
@@ -177,19 +169,6 @@ window.LUDOLABO_YOUTUBE = [
     "id": "TSpzatN-B8A",
     "date": "2026-04-06",
     "categories": [
-      "Fa"
-    ]
-  },
-  {
-    "titre": "Top 5 des jeux de société de l'hiver 2026",
-    "plateforme": "youtube",
-    "format": "long",
-    "id": "4edPvyfltLY",
-    "date": "2026-04-04",
-    "duree": "10:12",
-    "categories": [
-      "Co",
-      "Am",
       "Fa"
     ]
   },
@@ -730,16 +709,6 @@ window.LUDOLABO_YOUTUBE = [
     "categories": []
   },
   {
-    "titre": "TOP 3 des jeux auxquels il ne faut SURTOUT PAS JOUER 😱 #jeux #jeuxdesociété",
-    "plateforme": "youtube",
-    "format": "court",
-    "id": "hQM2DDeEzBk",
-    "date": "2025-05-03",
-    "categories": [
-      "As"
-    ]
-  },
-  {
     "titre": "Petites tenues 👯‍♂️ et flamands roses🦩 - Je note les JEUX de DECK-BUILDING🎴- Episode 2",
     "plateforme": "youtube",
     "format": "long",
@@ -851,19 +820,6 @@ window.LUDOLABO_YOUTUBE = [
       "Co",
       "Du",
       "St"
-    ]
-  },
-  {
-    "titre": "Ce qui se cache dans mon étagère de JEUX DE SOCIÉTÉ",
-    "plateforme": "youtube",
-    "format": "long",
-    "id": "tPBYu9UiwJQ",
-    "date": "2024-05-24",
-    "duree": "21:40",
-    "categories": [
-      "Co",
-      "Du",
-      "Am"
     ]
   },
   {
