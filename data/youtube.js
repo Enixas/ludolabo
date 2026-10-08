@@ -3,7 +3,17 @@
    Pour corriger une vidéo (catégories, rapport, masquer), utiliser data/videos.js */
 window.LUDOLABO_YOUTUBE = [
   {
-    "titre": "🏆Atteingnez le top mondial à 7 WONDERS avec ces astuces (BGA)",
+    "titre": "🐺 Nouveau rôle décalé au Loup-garou: le marionnettiste",
+    "plateforme": "youtube",
+    "format": "court",
+    "id": "TUo67YfIk4c",
+    "date": "2026-10-07",
+    "categories": [
+      "Am"
+    ]
+  },
+  {
+    "titre": "🏆Atteignez le top mondial à 7 WONDERS avec ces astuces (BGA)",
     "plateforme": "youtube",
     "format": "court",
     "id": "YGG_uesPeho",
