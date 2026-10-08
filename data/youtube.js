@@ -3,6 +3,17 @@
    Pour corriger une vidéo (catégories, rapport, masquer), utiliser data/videos.js */
 window.LUDOLABO_YOUTUBE = [
   {
+    "titre": "🟢 Vous continuez ou 🛑 vous vous arrêtez? La strat' à FLIP 7",
+    "plateforme": "youtube",
+    "format": "court",
+    "id": "yfQZAqHrcb0",
+    "date": "2026-10-08",
+    "categories": [
+      "Am",
+      "St"
+    ]
+  },
+  {
     "titre": "🐺 Nouveau rôle décalé au Loup-garou: le marionnettiste",
     "plateforme": "youtube",
     "format": "court",
