@@ -3,6 +3,17 @@
    Pour corriger une vidéo (catégories, rapport, masquer), utiliser data/videos.js */
 window.LUDOLABO_YOUTUBE = [
   {
+    "titre": "Mes 3 jeux 2 joueurs favoris (adieu les autres 🥲)",
+    "plateforme": "youtube",
+    "format": "court",
+    "id": "B-V62AkJ0D4",
+    "date": "2026-10-10",
+    "categories": [
+      "Co",
+      "Du"
+    ]
+  },
+  {
     "titre": "🟢 Vous continuez ou 🛑 vous vous arrêtez? La strat' à FLIP 7",
     "plateforme": "youtube",
     "format": "court",
