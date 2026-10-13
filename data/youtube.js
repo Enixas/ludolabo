@@ -13,7 +13,7 @@ window.LUDOLABO_YOUTUBE = [
     ]
   },
   {
-    "titre": "🤑 Un jeu qui coûtent des dizaines de milliers d'euros?",
+    "titre": "🤑 Un jeu qui coûte des dizaines de milliers d'euros?",
     "plateforme": "youtube",
     "format": "court",
     "id": "JZiAiZtnG2o",
