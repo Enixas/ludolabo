@@ -3,6 +3,14 @@
    Pour corriger une vidéo (catégories, rapport, masquer), utiliser data/videos.js */
 window.LUDOLABO_YOUTUBE = [
   {
+    "titre": "⚔️ Des militaires qui jouent à un jeu de guerre?",
+    "plateforme": "youtube",
+    "format": "court",
+    "id": "j2TNNp4ERUY",
+    "date": "2026-10-21",
+    "categories": []
+  },
+  {
     "titre": "😮 Un vase-puzzle en 3D",
     "plateforme": "youtube",
     "format": "court",
