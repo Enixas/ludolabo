@@ -3,6 +3,16 @@
    Pour corriger une vidéo (catégories, rapport, masquer), utiliser data/videos.js */
 window.LUDOLABO_YOUTUBE = [
   {
+    "titre": "🥸 Mais QUI a inventé ce truc bizarre?!",
+    "plateforme": "youtube",
+    "format": "court",
+    "id": "n0ayCcLN_ic",
+    "date": "2026-10-23",
+    "categories": [
+      "As"
+    ]
+  },
+  {
     "titre": "⚔️ Des militaires qui jouent à un jeu de guerre?",
     "plateforme": "youtube",
     "format": "court",
