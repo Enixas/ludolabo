@@ -3,6 +3,17 @@
    Pour corriger une vidéo (catégories, rapport, masquer), utiliser data/videos.js */
 window.LUDOLABO_YOUTUBE = [
   {
+    "titre": "🧐 Les strat' d'un n°1 mondial à Faraway (classement BGA)",
+    "plateforme": "youtube",
+    "format": "court",
+    "id": "lTqj5BOQcf4",
+    "date": "2026-10-27",
+    "categories": [
+      "St",
+      "As"
+    ]
+  },
+  {
     "titre": "🥸 Mais QUI a inventé ce truc bizarre?!",
     "plateforme": "youtube",
     "format": "court",
