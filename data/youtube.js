@@ -3,6 +3,16 @@
    Pour corriger une vidéo (catégories, rapport, masquer), utiliser data/videos.js */
 window.LUDOLABO_YOUTUBE = [
   {
+    "titre": "🧟‍♀️ IMPOSSIBLE de réussir ce jeu avec eux! (Prison Island)",
+    "plateforme": "youtube",
+    "format": "court",
+    "id": "shONh1hgd3g",
+    "date": "2026-10-30",
+    "categories": [
+      "En"
+    ]
+  },
+  {
     "titre": "🧐 Les strat' d'un n°1 mondial à Faraway (classement BGA)",
     "plateforme": "youtube",
     "format": "court",
